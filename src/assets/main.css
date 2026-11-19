@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-flora-cream: #FFF7F9;
+  --color-flora-sand: #FDEEF2;
+  --color-flora-blush: #F9D0DC;
+  --color-flora-rose: #EC829B;
+  --color-flora-terracotta: #D84A74;
+  --color-flora-dark: #351C24;
+  --color-flora-muted: #845B67;
+  --color-flora-gold: #DDA77B;
+
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+.bg-grain {
+  background-color: #fff7f9;
+  background-image: radial-gradient(#f0cad6 0.85px, transparent 0.85px);
+  background-size: 24px 24px;
+}
+
+.modal-backdrop {
+  backdrop-filter: blur(6px);
+  background-color: rgba(53, 28, 36, 0.6);
+}
+
+[v-cloak] {
+  display: none;
+}
